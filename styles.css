@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #game-board {
+    width: 300px;
+    height: 600px;
+    border: 1px solid black;
+  }
+  
