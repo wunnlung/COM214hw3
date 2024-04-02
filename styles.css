@@ -4,11 +4,21 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-  }
-  
-  #game-board {
-    width: 300px;
-    height: 600px;
-    border: 1px solid black;
-  }
-  
+}
+
+#game-container {
+    position: relative;
+}
+
+#gameCanvas {
+    border: 1px solid #000;
+    background: #f0f0f0;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
